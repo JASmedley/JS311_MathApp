@@ -15,5 +15,10 @@ Response: 9</p>
 Request: POST /double/5
 <br>
 Response: 10</p>
-<li></li>
+<li>PUT /multiply - this route accepts 2 numbers in teh request body and returns the product of both numbers</li>
+<p><b>Example:</b>
+<br>
+Request: PUT /multiply {num1: 15, num2: 3}
+<br>
+Response: 45</p>
 </ol>
